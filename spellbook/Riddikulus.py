@@ -14,15 +14,15 @@ try:
 
         print(f'''
 
-        {userName} (@{userLogin}), you are about to use the {spell} spell. Are you sure this is the right one?
-        If yes, then the secret code assosciated with it is:
+        {userName} (@{userLogin}), you have found the right spell. As a part of your reward for solving the riddle,
+        here is the secret code assosciated with it:
         ''')
         subprocess.Popen(f"figlet {code}", shell=True)
     except:
         print(f'''
 
-        @{userLogin}, you are about to use the {spell} spell. Are you sure this is the right one?  
-        If yes, the secret code assosciated with this spell is: {code}
+        {userName} (@{userLogin}), you have found the right spell. As a part of your reward for solving the riddle,
+        here is the secret code assosciated with it: {code}
         ''')
 
 except Exception as e:
