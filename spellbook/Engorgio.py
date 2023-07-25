@@ -8,22 +8,17 @@ try:
     userLogin=user['login']
     file=os.path.basename(__file__)
     spell=file.split('.')[0]
-    code="adn"
+    code="dHJhbnNwb3J0Lg"
 
-    try:
+ 
 
-        print(f'''
+    print(f'''
 
-        {userName} (@{userLogin}), you are about to initiate the {spell} phenomenon. Are you sure this will work?
-        If yes, then the secret code assosciated with it is:
+    {userName} (@{userLogin}), you are about to use the {spell} spell. Are you sure this is the right one?
+    If yes, then the secret code assosciated with it is:
+    {code}
         ''')
-        subprocess.Popen(f"figlet {code}", shell=True)
-    except:
-        print(f'''
-
-        {userName} (@{userLogin}), you are about to initiate the {spell} phenomenon. Are you sure this will work?  
-        If yes, the secret code assosciated with it is: {code}
-        ''')
+       
 
 except Exception as e:
     print("Unkown Error occured, please try again later")
