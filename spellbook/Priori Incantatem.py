@@ -14,14 +14,14 @@ try:
 
         print(f'''
 
-        {userName} (@{userLogin}), you are about to initiate the {spell} phenomenon. Are you sure this will work?
+        {userName} (@{userLogin}), you are about to use the {spell} spell. Are you sure this will work?
         If yes, then the secret code assosciated with it is:
         ''')
         subprocess.Popen(f"figlet {code}", shell=True)
     except:
         print(f'''
 
-        {userName} (@{userLogin}), you are about to initiate the {spell} phenomenon. Are you sure this will work?  
+        {userName} (@{userLogin}), you are about to initiate the {spell} spell. Are you sure this will work?  
         If yes, the secret code assosciated with it is: {code}
         ''')
 
