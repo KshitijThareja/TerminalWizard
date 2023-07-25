@@ -8,7 +8,7 @@ try:
     userLogin=user['login']
     file=os.path.basename(__file__)
     spell=file.split('.')[0]
-    code="bWVtYmVyc2hpcC4"
+    code="dHJhbnNwb3J0Lg"
 
  
 
