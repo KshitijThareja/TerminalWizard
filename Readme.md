@@ -1,18 +1,21 @@
 # Terminal Wizard
 
-For this task, you have to play the role of Harry Potter, as a participant of the Terminal Wizard Cup. Your task is to find the Championship Cup, which is hidden deep inside a maze. Along the way, you'd find some secret codes which you have to save in a separate text file. You need to collect all the codes, which, in turn, will help you to complete the task successfully.
+For this task, you have to play the role of Harry Potter, as a participant of the Terminal Wizard Cup. Your task is to find the Championship Cup, which is hidden deep inside a maze. Along the way, you'd find some secret codes which you have to save in a separate text file. You need to collect all the codes, which, in turn, will help you to complete the task successfully.  
 
-> Note: All the parts of this task should be strictly implemented using Ubuntu terminal commands only.
+> Note: All the parts of this task should be strictly implemented using Ubuntu terminal commands only. You should push your work to your "amfoss-tasks" repository after every challenge you complete, i.e. after every part of the secret-code you find.  
 
 
 ## 1. Enter the maze 
 
 To begin, Clone this GitHub repository to your device using  
-```git clone https://github.com/KshitijThareja/TerminalWizard.git```   
+```git clone https://github.com/KshitijThareja/TerminalWizard.git```  
+
 Also create a new directory in the same repository named "codes".  
 The complete code is divided into 4 different parts, which you'll be finding as the task progresses.  
-> Note: Copy the python spell files that you'll be finding to the "codes" folder and run the python script to get the secret code associated with that spell. Also create a new text file, named "Part_x.txt", 'x' refers to the part number, in the same directory and enter the secret code you received into that file.  
-You can start now. Best of luck!
+
+> Note: Run the python spell files that you'll be finding to get the secret code associated with that spell and copy the specific python spell files to the "codes" folder. Also create a new text file, named "Part_x.txt", 'x' refers to the part number, in the same directory and enter the secret code you received into that file.  
+
+You can start now. Best of luck!  
 
 ## 2. First challenge
 
@@ -29,33 +32,34 @@ Navigate to the file in spellbook which has the same name as the spell you disco
 ## 4. Third challenge
 For this task, you'd have to switch to a branch, which is named after the subject taught by Professor Lupin at Hogwarts.
 On your ways ahead, you encounter a Sphinx. For the Sphinx to allow you to pass safely, you'll have to solve a riddle given by it. The riddle is:  
-In Hogwarts' realm of magic and might,
-A shape-shifting enigma takes flight.
-In shadows deep, it finds its place,
-Unveiling fears that you embrace.
 
-From your darkest thoughts it springs,
-Taking forms of frightful things.
-With laughter or terror, it delights,
-Revealing what your mind ignites.
+<mark style="background-color: grey">In Hogwarts' realm of magic and might,  
+A shape-shifting enigma takes flight.  
+In shadows deep, it finds its place,  
+Unveiling fears that you embrace.</mark> 
+
+<mark style="background-color: grey">From your darkest thoughts it springs,  
+Taking forms of frightful things.  
+With laughter or terror, it delights,  
+Revealing what your mind ignites.</mark>   
 
 (Hint: it's a shape-shifting creature)  
-Search what spell will you use to fight this creature from the web. Execute the python file named after that spell from the spellbook to get the secret code.
+Search what spell will you use to fight this creature from the web. Execute the python file named after that spell from the spellbook to get the secret code.  
 
-But wait! This spell file is present in another branch. You need to copy it to the main branch along with other parts of your secret code. For this, you can execute the following command from the main branch by "cd'ing" into the required folder:
+But wait! This spell file is present in another branch. You need to copy it to the spellbook of the main branch. For this, you can execute the following command from the main branch by "cd'ing" into the required folder:  
 ``` git checkout <remote branch> 'Relative path of file to be copied from other branch' ```   
-After this, you will be able to see the required file in your main branch.
+After this, you will be able to see the required file in your main branch.  
 
-## Fourth challenge
+## 5. Fourth challenge
 
 After the Sphinx cleared your way, you were able to reach find the Cup. But wait!!!  
 The cup turned out to be a portkey and you find yourself teleported to a graveyard. It was Lord Voldemort's plan, the evil who was thought to be dead until now, to bring you here so that he can finish you off as you are his prime enemy. You need to fight him of and get the news of Voldemort's resurrection to Dumbledore. While fighting him, one of your spell's initiated a phenomenon that will help you to escape.  
 The hint to find the spell is given in the commit log of the repository. Find the correct spell and save the wizarding world from this evil. 
-(Hint: You'll be asked to navigate to other branch (again...). So for copying the required file to main branch, follow the instructions from the previous challenge.)
+(Hint: You'll be asked to navigate to other branch (again...). So for copying the required file to main branch, follow the instructions from the previous challenge.)  
 
-## The End
+## 6. The End
 Finally, all the parts of the complete code are in one place. Now we just need to combine them to get the secret code and store it in a new file called finalcode.txt. Navigate to the 'codes' folder and concatenate all the contents of the file into a text file called finalcode.txt. After concatenating delete all the files except finalcode.txt.  
 
-Congrats🎉, you've found the code. But what does this code mean? The secret is....it is encoded in base64. To decode it, use:  
+Congrats🎉, you've found the code. But what does this code mean?    The secret is....it is encoded in base64. To decode it, use:  
 ``` echo <base64 encoded string> | base64 --decode ```  
 You'll know what to do with that code once you decode it to a readable format. Go ahead and decode it 👍
