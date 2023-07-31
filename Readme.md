@@ -2,7 +2,7 @@
 
 For this task, you have to play the role of Harry Potter, as a participant of the Terminal Wizard Cup. Your task is to find the Championship Cup, which is hidden deep inside a maze. Along the way, you'd find some secret codes which you have to save in a separate text file. You need to collect all the codes, which, in turn, will help you to complete the task successfully.  
 
-> Note: All the parts of this task should be strictly implemented using Ubuntu terminal commands only. You should push your work to your "amfoss-tasks" repository after every challenge you complete, i.e. after every part of the secret-code you find.  
+> Note: All the parts of this task should be strictly implemented using Linux terminal commands only. You should push your work to your "amfoss-tasks" repository after every challenge you complete, i.e. after every part of the secret-code you find. 
 
 
 ## 1. Enter the maze 
@@ -11,9 +11,10 @@ To begin, Clone this GitHub repository to your device using
 ```git clone https://github.com/KshitijThareja/TerminalWizard.git```  
 
 Also create a new directory in the same repository named "codes".  
+> Remember that you only need to push the contents of your "codes" folder when pushing the changes to your task repository.  
 The complete code is divided into 4 different parts, which you'll be finding as the task progresses.  
 
-> Note: Run the python spell files that you'll be finding to get the secret code associated with that spell and copy the specific python spell files to the "codes" folder. Also create a new text file, named "Part_x.txt", 'x' refers to the part number, in the same directory and enter the secret code you received into that file.  
+> Note: Run the python spell files that you'll be finding to get the secret code associated with that spell and copy the specific python spell files to the "codes" folder. Also create a new text file, named "Part_x.txt", 'x' refers to the part number, in the same directory and enter the secret code you received into that file.   
 
 You can start now. Best of luck!  
 
@@ -22,7 +23,7 @@ You can start now. Best of luck!
 As you were navigating the maze, you came across a blast-ended-skrewt. To fight it, you need to use the right spell, which will be found in the directory '0x', where x is the first perfect number. The spell is stored in the file "Spell_0y", where y is the number you get by differentiating (x^2-7x) w.r.t 'x'.  
 Now navigate to the file in spellbook which has the same name as the spell you discovered earlier and execute it to find the secret code.
 
-## 3. Second Challenge
+## 3. Second challenge
 
 As you were finding your way after defeating the skrewt, you encountered a giant-spider. The spell that you need to fight it is stored in the file "Spell_0x" of the folder "0y", where xy is the atomic number of the earliest element used for making semiconductors.  
 Navigate to the file in spellbook which has the same name as the spell you discovered earlier and execute it to find the secret code.  
@@ -52,7 +53,7 @@ After this, you will be able to see the required file in your main branch.
 
 ## 5. Fourth challenge
 
-After the Sphinx cleared your way, you were able to reach find the Cup. But wait!!!  
+After the Sphinx cleared your way, you were able to reach the Cup. But wait!!!  
 The cup turned out to be a portkey and you find yourself teleported to a graveyard. It was Lord Voldemort's plan, the evil who was thought to be dead until now, to bring you here so that he can finish you off as you are his prime enemy. You need to fight him of and get the news of Voldemort's resurrection to Dumbledore. While fighting him, one of your spell's initiated a phenomenon that will help you to escape.  
 The hint to find the spell is given in the commit log of the repository. Find the correct spell and save the wizarding world from this evil. 
 (Hint: You'll be asked to navigate to other branch (again...). So for copying the required file to main branch, follow the instructions from the previous challenge.)  
