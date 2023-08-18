@@ -31,7 +31,7 @@ As you were finding your way after defeating the skrewt, you encountered a giant
 
 Navigate to the file in the spellbook which has the same name as the spell you discovered earlier and execute it to find the secret code.
 
-> The files containing the next two parts of the password are present on different branches 😱. Don't worry we’ll help you with this one 😊. Run the command "git branch -a" to see all the local and remote branches of the repository. You can use `git checkout <branch_name>` in the terminal to switch to the new branch.
+> The files containing the next two parts of the password are present on different branches. Don't worry we’ll help you with this one. Run the command "git branch -a" to see all the local and remote branches of the repository. You can use `git checkout <branch_name>` in the terminal to switch to the new branch.
 
 ## 4. Third challenge
 For this task, you'd have to switch to a branch, which is named after the subject taught by Professor Lupin at Hogwarts.
@@ -70,6 +70,6 @@ The spell is hidden in the commit logs of this repository.
 ## 6. The End
 Finally, all the parts of the complete code are in one place. Now we just need to combine them to get the secret code and store it in a new file called finalcode.txt. Navigate to the 'codes' folder and concatenate all the contents of the file into a text file called finalcode.txt. After concatenating delete all the files except finalcode.txt.
 
-Congrats🎉, you've found the code. But what does this code mean?    The secret is... it is encoded in base64. To decode it, use:
+Congratulations, you've found the code. But what does this code mean?    The secret is... it is encoded in base64. To decode it, use:
 ``` echo <base64 encodedString> | base64 --decode ```
 You'll know what to do with that code once you decode it to a readable format. Go ahead and decode it, Champion. 
