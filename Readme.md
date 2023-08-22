@@ -2,7 +2,7 @@
 
 For this task, you have to play the role of Harry Potter, as a participant of the Terminal Wizard Cup. Your task is to find the Championship Cup, which is hidden deep inside a maze. Along the way, you'll find secret codes which you must save in a separate text file. You need to collect all the codes to complete the task successfully.
 
-> Note: All the parts of this task should be strictly implemented using Linux terminal commands only. 
+> Note: All the parts of this task should be strictly implemented using Linux terminal commands only. You also need to install gh (GitHub CLI) to advance further, the steps for which can be found [here](Steps.md)
 
 ## 1. Enter the maze
 
